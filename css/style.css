@@ -227,6 +227,86 @@ ul li.right p
 
 #cv-skills-container
 {
-    width: 75%;
-    height: 50%;
+    width: 90%;
+    height: 33.3%;
+}
+
+.cv-skills-sub-container
+{
+    width: 30%;
+    height: 100%;
+    margin-top: 2.5%;
+    margin-left: 2.25%;
+    display: inline-block;
+}
+
+.cv-skills-title-container
+{
+    width: 100%;
+    height: 15%;
+    background-color: orange;
+}
+
+.cv-skills-title
+{
+    width: 95%;
+    height: 100%;
+    float: right;
+    background-color: darkblue;
+}
+
+.cv-skills-title h1
+{
+    font-size: 3vh;
+    color: rgb(255,255,255);
+    font-weight: bold;
+    padding-left: 1%;
+    line-height: 5vh; 
+}
+
+.cv-skills-bar
+{
+    width: 90%;
+    height: 12.5%;
+    margin: auto;
+    background-color: orange;
+    margin-top: 2.5%
+}
+
+.cv-skill-bar-title
+{
+    width: 95%;
+    height: 100%;
+    float: right;
+    background-color: darkblue;
+}
+
+.cv-skill-bar-title h1
+{
+    font-size: 2.5vh;
+    color: rgb(255,255,255);
+    font-weight: bold;
+    padding-left: 2%;
+    line-height: 4vh; 
+}
+
+.cv-awards-sub-container
+{
+    height: 75%;
+}
+
+.cv-awards-title-container
+{
+    height: 40%;
+}
+
+.cv-awards-sub-title
+{
+    height: 33.3%
+}
+
+@page
+{
+    size: a4;
+    margin: 30mm 45mm 30mm 45mm;
 }
