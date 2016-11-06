@@ -1,0 +1,204 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+html, body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    overflow-x: hidden;
+    font-family: "Roboto", sans-serif;
+}
+
+.timeline-container
+{
+    width: 80%;
+    height: 50%;
+    margin: auto;
+    position: relative;
+}
+
+#divider
+{
+    position: absolute;
+    width: 2%;
+    height: 100%;
+    top: 0;
+    left: 49%;
+    background-color: darkblue;
+}
+
+ul
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+ul li
+{
+    list-style-type: none;
+    color: white;
+}
+
+ul li h1
+{
+    font-weight: bold;
+    width: 97.5%;
+    margin-bottom: 1%;
+}
+
+ul li p
+{
+    border-top: 1px solid grey;
+}
+
+li.left:first-child 
+{ 
+    margin-top: 0%;
+}
+
+ul li.left
+{
+    float: left;
+    width: 49%;
+    text-align: right;
+    margin-top: 7.25%;
+    background-color: orange;
+}
+
+ul li.left h1
+{
+    float: right;
+}
+
+ul li.left p
+{
+    float: left;
+    padding: 1%;
+}
+
+.left-container
+{
+    width: 90%;
+    float: left;
+    padding: 1%;
+    background-color: darkblue;
+}
+
+.right-container
+{
+    width: 90%;
+    float: right;
+    padding: 1%;
+    background-color: darkblue;
+}
+
+ul li.right
+{
+    float: right;
+    width: 49%;
+    text-align: left;
+    margin-top: 7.25%;
+    background-color: orange;
+}
+
+ul li.right p
+{
+    float: right;
+    padding: 1%;
+}
+
+/*
+ul 
+{
+  position: relative;
+  display: block;
+  margin: 5% auto;
+  padding-left: 4px;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  width: 0px;
+  background: #9b2;
+}
+
+li.left 
+{
+  position: relative;
+  display: inline-block;
+  left: 1em;
+  height: 5em;
+  width: 20em;
+  font: bold 14px arial;
+}
+
+li.right
+{
+    position: relative;
+  display: inline-block;
+  left: 1em;
+  height: 5em;
+  width: 20vw;
+  font: bold 14px arial;
+}
+
+li::before 
+{
+  content: "";
+  position: absolute;
+  top: -0.2em;
+  left: -2em;
+  display: block;
+  width: 16px;
+  height: 16px;
+  border: 4px solid #526512;
+  border-radius: 16px;
+}
+
+li.saint-michel::before 
+{
+  background-color: lightblue;
+}
+
+li.opera::before 
+{
+  background-color: green;
+}
+
+li.cityhall::before 
+{
+  background-color: yellow;
+}
+
+li.catacombes::before 
+{
+  background-color: red;
+}
+
+li.grands-boulevards::before
+{
+  background-color: orange;
+}
+*/

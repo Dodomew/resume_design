@@ -1,0 +1,232 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+html, body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-family: "Roboto", sans-serif;
+}
+
+#cv-container
+{
+    width: 90%;
+    min-height: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+#header-container
+{
+    width: 50%;
+    height: 10%;
+    background-color: orange;
+}
+
+#header-name-container
+{
+    width: 90%;
+    height: 100%;
+    float: right;
+    background-color: darkblue;
+    padding-left: 2.5%;
+}
+
+#header-container h1
+{
+    font-size: 5vh;
+    color: rgb(255,255,255);
+    font-weight: bold;
+}
+
+#header-container h2
+{
+    font-size: 3vh;
+    color: rgb(255,255,255);
+    font-weight: 200;
+}
+
+#meta-info-container
+{
+    width: 90%;
+    height: 5%;
+    background-color: orange;
+    margin-top: 2.5%;
+}
+
+#meta-info
+{
+    width: 95%;
+    height: 100%;
+    float: right;
+    background-color: skyblue;
+}
+
+#meta-info h3
+{
+    font-size: 2.5vh;
+    color: rgb(255,255,255);
+    font-weight: 200;
+    padding-left: 1%;
+    line-height: 5vh;
+}
+
+.cv-info-container
+{
+    width: 90%;
+    height: 5%;
+    background-color: orange;
+    margin-top: 2.5%;
+}
+
+.cv-info
+{
+    width: 95%;
+    height: 100%;
+    background-color: darkblue;
+    float: right;
+}
+
+.cv-info h2
+{
+    font-size: 3vh;
+    color: rgb(255,255,255);
+    font-weight: bold;
+    padding-left: 1%;
+    line-height: 5vh;
+}
+
+#timeline-container
+{
+    width: 90%;
+    height: 50%;
+    margin-top: 2.5%;
+    position: relative;
+}
+
+#divider
+{
+    position: absolute;
+    width: 2%;
+    height: 100%;
+    top: 0;
+    left: 49%;
+    background-color: darkblue;
+}
+
+ul
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+ul li
+{
+    list-style-type: none;
+    color: white;
+}
+
+ul li h1
+{
+    font-weight: bold;
+    width: 97.5%;
+    margin-bottom: 1%;
+}
+
+ul li p
+{
+    border-top: 1px solid grey;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+ul li.left:first-child 
+{ 
+    margin-top: 2.5%;
+}
+
+ul li.left
+{
+    float: left;
+    width: 49%;
+    text-align: right;
+    margin-top: 7.25%;
+    background-color: orange;
+}
+
+ul li.left h1
+{
+    float: right;
+}
+
+ul li.left p
+{
+    float: left;
+}
+
+.left-container
+{
+    width: 90%;
+    float: left;
+    padding: 1%;
+    background-color: darkblue;
+}
+
+.right-container
+{
+    width: 90%;
+    float: right;
+    padding: 1%;
+    background-color: darkblue;
+}
+
+ul li.right:nth-child(2) 
+{
+    margin-top: 9.5%;
+}
+
+ul li.right
+{
+    float: right;
+    width: 49%;
+    text-align: left;
+    margin-top: 7%;
+    background-color: orange;
+}
+
+ul li.right p
+{
+    float: right;
+}
+
+#cv-skills-container
+{
+    width: 75%;
+    height: 50%;
+}
